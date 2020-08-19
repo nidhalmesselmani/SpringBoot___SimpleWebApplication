@@ -7,6 +7,6 @@
 </head>
 
 <body>
-         Welcome ${name}
+         Welcome ${obj.aid} , ${obj.aname} , ${obj.alang}
 </body>
 </html>

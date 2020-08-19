@@ -14,10 +14,10 @@ import javax.servlet.http.HttpSession;
 public class HomeController {
 
     @RequestMapping("home")
-    public ModelAndView index(@RequestParam("name") String Myname){
+    public ModelAndView index(Alien alien){
 
         ModelAndView mv = new ModelAndView();
-        mv.addObject("name", Myname);
+        mv.addObject("obj", alien);
         mv.setViewName("home");
       return mv;
     }

@@ -9,6 +9,6 @@ public class HomeController {
 
     @RequestMapping("home")
     public String index(){
-      return "home.jsp";
+      return "home";
     }
 }
